@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Email - Code Academy</title>
+  </head>
+  <body>
+    
+    <div class="container mt-5">
+        <div class="row align-items-center" id="gmailicon" style="height:6.5em"> 
+            <header class="column-12 text-white">
+                <h2>BVT Mail</h2>
+            </header>    
+            <div class="col-lg-2">
+                <img class="img-fluid rounded" src="gmail.png" alt="gmail icon" style="width:50px;">
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <form>
+                    <fieldset>
+                        <div class="d-flex align-items-center">
+                            <input class="form-control text-muted" type="text" id="searchmail" placeholder="Search in mail" required>
+                            <button class="btn btn-primary float-right" type="Search">Search</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        
+        <div class="row"> 
+            <div class="col-lg-2 bg-dark border">
+                <form>
+                    <div class="form-group d-flex flex-column">
+                        <button class="btn btn-secondary mb-3 mt-3 btn-lg btn-block border rounded-1" type="button">Compose</button>
+                        <button class="btn btn-secondary mb-3 btn-lg btn-block border rounded-1" type="button">Inbox</button>
+                        <button class="btn btn-secondary mb-3 btn-lg btn-block border rounded-1" type="button">Drafts</button>
+                        <button class="btn btn-secondary mb-3 btn-lg btn-block border rounded-1" type="button">Important</button>
+                        <button class="btn btn-secondary mb-3 btn-lg btn-block border rounded-1" type="button">Junk</button>
+                        <button class="btn btn-secondary mb-3 btn-lg btn-block border rounded-1" type="button">Trash</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-3 bg-dark border">
+                <form>
+                    <div class="form-group d-flex flex-column">
+                        <button class="btn btn-secondary mt-3 btn-sm btn-block border rounded-1" type="button">
+                            <div class="d-flex">
+                                <div class="col-lg-9">
+                                    <p class="mail" style="text-align: left;">Sender: Santa <br> Subject: Merry Christmas!</p>
+                                </div>
+                                <div class="col-lg-3" style="text-align: right;">
+                                    <p class="mail">12/25/2023 12:00AM</p>
+                                </div>    
+                            </div>
+                        </button>
+                        <button class="btn btn-secondary btn-sm btn-block border rounded-1" type="button">
+                            <div class="d-flex">
+                                <div class="col-lg-9">
+                                    <p class="mail" style="text-align: left;">Sender: Comet <br> Subject: Merry Christmas!</p>
+                                </div>
+                                <div class="col-lg-3" style="text-align: right;">
+                                    <p class="mail">12/25/2023 12:00AM</p>
+                                </div>    
+                            </div>
+                        </button>
+                        <button class="btn btn-secondary btn-sm btn-block border rounded-1 active" type="button">
+                            <div class="d-flex">
+                                <div class="col-lg-9">
+                                    <p class="mail" style="text-align: left;">Sender: Blitzen <br> Subject: Merry Christmas!</p>
+                                </div>
+                                <div class="col-lg-3" style="text-align: right;">
+                                    <p class="mail">12/25/2023 12:00AM</p>
+                                </div>    
+                            </div>
+                        </button>
+                    </div>
+                    <div class="form-group d-flex flex-column">
+                        <button class="btn btn-secondary btn-sm btn-block border rounded-1" type="button">
+                            <div class="d-flex">
+                                <div class="col-lg-9">
+                                    <p class="mail" style="text-align: left;">Sender: Cupid <br> Subject: Merry Christmas!</p>
+                                </div>
+                                <div class="col-lg-3" style="text-align: right;">
+                                    <p class="mail">12/25/2023 12:00AM</p>
+                                </div>    
+                            </div>
+                        </button>
+                        <button class="btn btn-secondary btn-sm btn-block border rounded-1" type="button">
+                            <div class="d-flex">
+                                <div class="col-lg-9">
+                                    <p class="mail" style="text-align: left;">Sender: Dasher <br> Subject: Merry Christmas!</p>
+                                </div>
+                                <div class="col-lg-3" style="text-align: right;">
+                                    <p class="mail">12/25/2023 12:00AM</p>
+                                </div>    
+                            </div>
+                        </button>
+                        <button class="btn btn-secondary btn-sm btn-block border rounded-1" type="button">
+                            <div class="d-flex">
+                                <div class="col-lg-9">
+                                    <p class="mail" style="text-align: left;">Sender: Prancer <br> Subject: Merry Christmas!</p>
+                                </div>
+                                <div class="col-lg-3" style="text-align: right;">
+                                    <p class="mail">12/25/2023 12:00AM</p>
+                                </div>    
+                            </div>
+                        </button>
+                        <button class="btn btn-secondary btn-sm btn-block border rounded-1" type="button">
+                            <div class="d-flex">
+                                <div class="col-lg-9">
+                                    <p class="mail" style="text-align: left;">Sender: Vixen <br> Subject: Merry Christmas!</p>
+                                </div>
+                                <div class="col-lg-3" style="text-align: right;">
+                                    <p class="mail">12/25/2023 12:00AM</p>
+                                </div>    
+                            </div>
+                        </button>
+                        <button class="btn btn-secondary btn-sm btn-block border rounded-1" type="button">
+                            <div class="d-flex">
+                                <div class="col-lg-9">
+                                    <p class="mail" style="text-align: left;">Sender: Dancer <br> Subject: Merry Christmas!</p>
+                                </div>
+                                <div class="col-lg-3" style="text-align: right;">
+                                    <p class="mail">12/25/2023 12:00AM</p>
+                                </div>    
+                            </div>
+                        </button>
+                    </div>
+                    <div class="form-group d-flex flex-column">
+                        <button class="btn btn-secondary btn-sm btn-block border rounded-1" type="button">
+                            <div class="d-flex">
+                                <div class="col-lg-9">
+                                    <p class="mail" style="text-align: left;">Sender: Donner <br> Subject: Merry Christmas!</p>
+                                </div>
+                                <div class="col-lg-3" style="text-align: right;">
+                                    <p class="mail">12/25/2023 12:00AM</p>
+                                </div>    
+                            </div>
+                        </button>
+                        <button class="btn btn-secondary btn-sm btn-block border rounded-1 mb-3" type="button">
+                            <div class="d-flex">
+                                <div class="col-lg-9">
+                                    <p class="mail" style="text-align: left;">Sender: Rudolph <br> Subject: Merry Christmas!</p>
+                                </div>
+                                <div class="col-lg-3" style="text-align: right;">
+                                    <p class="mail">12/25/2023 12:00AM</p>
+                                </div>    
+                            </div>
+                        </button>
+                    </div>
+                </form>
+            </div>
+                
+            <div class="col-lg-7 bg-dark border"">
+                <div class="row bg-secondary text-white mt-3 border rounded ms-1 me-1 d-flex align-items-center" style="height: 3em;">
+                    <div class="col-lg-7">
+                        <h5>Merry Christmas!</h5>
+                    </div>
+                    <div class="col-lg-3">
+                        <h6>12/25/2023 12:00AM</h6>
+                    </div>    
+                    <div class="col-lg-2">
+                        <button class="btn btn-secondary btn-sm btn-block border rounded" type="button">Reply</button>
+                    </div> 
+                </div>
+                <div class="row bg-dark text-white mt-3"></div>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptates inventore autem, aut facilis assumenda magnam exercitationem quo distinctio cupiditate nesciunt modi, vel quisquam sunt dolor eaque animi pariatur fugit!
+                    Omnis aliquam distinctio doloremque adipisci totam laboriosam architecto dolor perspiciatis eos, dolorum quae voluptate est. Consectetur facere aut ipsa repudiandae, hic laudantium reiciendis reprehenderit numquam eum dignissimos vitae in dolor?
+                    Commodi, ipsa blanditiis earum asperiores temporibus expedita maiores optio sequi quisquam esse perspiciatis et ratione doloremque nesciunt facere perferendis. Eius aut quae laboriosam obcaecati? Cum velit autem dolorem officiis accusamus?
+                    Ad fuga magnam iure, odit recusandae veritatis illum nihil mollitia libero distinctio labore, error nostrum corporis, voluptatem reiciendis tempora. Labore, minima dignissimos? Consequuntur magni voluptate nostrum. Vero deleniti alias modi!
+                    Expedita aspernatur odio commodi animi praesentium facere iste perferendis dolores asperiores soluta, doloremque consequuntur, ratione et autem, temporibus beatae ex tempore. Voluptatem veniam modi odio magni. Esse quasi eum cum.
+                    Neque vitae quisquam soluta. Repellendus quia repellat possimus soluta odio incidunt dolorem error neque aspernatur, quam, quaerat libero non ad eos, ipsum vero doloribus id perferendis. Natus sunt quaerat veritatis!
+                    Dolorum id suscipit architecto fugiat quod ipsum doloremque, ex itaque accusantium maxime commodi ullam eaque cumque nam quibusdam consequatur praesentium, omnis, inventore hic officia. Quis est dignissimos sapiente veritatis similique.
+                    Laudantium molestiae asperiores assumenda praesentium rem doloremque omnis expedita porro deleniti dignissimos id autem ea repellendus a facere necessitatibus, qui vero! Atque nemo rem facere at praesentium, eveniet aut accusantium?
+                    Sapiente deleniti autem necessitatibus, sit dolor a deserunt doloremque dignissimos at molestias quibusdam voluptatibus ea quas dolorum minus non explicabo sunt repellendus! Blanditiis repellendus nesciunt, optio ab unde voluptatibus veniam?
+                    Rerum quod omnis architecto. Quasi quas eum in rerum autem labore iste voluptates corrupti odio laboriosam, optio, consequuntur totam magni facere vitae eos temporibus accusantium tenetur eligendi sed libero! Perferendis.</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
